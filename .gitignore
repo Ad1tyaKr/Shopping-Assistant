@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories (CRITICAL)
+node_modules/
+
+# Build outputs (CRITICAL)
+dist/
+dist-ssr/
+
+# Environment variables (CRITICAL)
+.env
+.env.local
+.env.*.local
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

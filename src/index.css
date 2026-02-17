@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  background-color: #f8fafc; /* Slate-50 background */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Component Classes */
+@layer components {
+  /* This .btn-primary class handles the button styling 
+    for your Voice Input button 
+  */
+  .btn-primary {
+    @apply flex items-center justify-center gap-2 px-6 py-3 
+           bg-blue-600 text-white font-semibold rounded-xl 
+           shadow-sm transition-all duration-200 
+           hover:bg-blue-700 hover:shadow-md 
+           active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed;
+  }
+
+  /* Optional: Utility for the loading spinner if we add one later 
+  */
+  .spinner {
+    @apply animate-spin rounded-full h-5 w-5 border-b-2 border-white;
+  }
+}
+
+/* Mobile Optimization: Prevent text selection during taps */
+button {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
