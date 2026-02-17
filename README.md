@@ -19,13 +19,13 @@ A robust, voice-activated shopping list application built with **React** and **T
 * **Styling**: Tailwind CSS
 * **Speech**: Native Web Speech API (Zero dependencies)
 * **Logic**: Custom Hook (`useVoiceInput`) + AI Service Layer
-* **AI**: Google Gemini API (gemini-pro)
+* **AI**: Google Gemini API (`gemini-pro`)
 
 ## 🏃‍♂️ How to Run Locally
 
 1.  **Clone the repository**
     ```bash
-    git clone [YOUR_REPO_LINK_HERE]
+    git clone https://github.com/Ad1tyaKr/Shopping-Assistant
     cd voice-shopping-assistant
     ```
 
