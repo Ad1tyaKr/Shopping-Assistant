@@ -23,13 +23,13 @@ This project demonstrates a "Minimalist Interface" design and uses the **Web Spe
 * **⚡ Fallback Reliability**: Gracefully degrades to a robust local mode if AI services are unreachable.
 
 ## 🚀 Key Technical Highlights
-* ⚛️ React Architecture: Built with functional components and custom Hooks (useVoiceInput) for separated logic and view layers.
+* **⚛️ React Architecture**: Built with functional components and custom Hooks (useVoiceInput) for separated logic and view layers.
 
-* 📘 TypeScript Precision: Utilizes strict type safety and shared Interfaces to ensure a robust, error-free codebase.
+* **📘 TypeScript Precision**: Utilizes strict type safety and shared Interfaces to ensure a robust, error-free codebase.
 
-* ⚡ Zero-Latency Performance: Optimized for mobile and voice-only interactions with immediate visual feedback.
+* **⚡ Zero-Latency Performance**: Optimized for mobile and voice-only interactions with immediate visual feedback.
 
-* 🧠 Intelligent Logic: Simulates an NLP backend to parse natural language commands (e.g., "Add 5 organic apples") into structured data.
+* **🧠 Intelligent Logic**: Simulates an NLP backend to parse natural language commands (e.g., "Add 5 organic apples") into structured data.
 
 ## 🛠️ Tech Stack
 
