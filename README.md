@@ -7,21 +7,9 @@ This project demonstrates a "Minimalist Interface" design and uses the **Web Spe
 
 | **Smart Voice Interface** | **Intelligent Suggestions** |
 |:-------------------------:|:---------------------------:|
-| ![Home Interface](./assets/home.png) | ![Smart Features](./assets/demo.png) |
+| ![Home Interface](./src/assets/home.png) | ![Smart Features](./src/assets/demo.png) |
 | *Clean, glassmorphism UI with<br>native voice feedback loops.* | *Auto-categorization and<br>smart product substitutes.* |
 
-## 🏗️ Architecture Flow
-
-The application follows a unidirectional data flow, separating the **Voice Layer** (Browser API) from the **Logic Layer** (AI Service) for maximum performance.
-
-```mermaid
-graph TD
-    A[User Voice Command] -->|Web Speech API| B(useVoiceInput Hook)
-    B -->|Raw Text| C{AI Service Layer}
-    C -->|Text Analysis| D[NLP Parsing]
-    C -->|Mock/API| E[Smart Suggestions]
-    D & E -->|JSON Data| F[React State Store]
-    F -->|Re-render| G[UI Component]
 
 ## 🚀 Features
 
@@ -34,14 +22,14 @@ graph TD
 * **📱 Mobile-First Design**: Glassmorphism UI with a large, thumb-accessible voice trigger.
 * **⚡ Fallback Reliability**: Gracefully degrades to a robust local mode if AI services are unreachable.
 
-🚀 Key Technical Highlights
-⚛️ React Architecture: Built with functional components and custom Hooks (useVoiceInput) for separated logic and view layers.
+## 🚀 Key Technical Highlights
+* ⚛️ React Architecture: Built with functional components and custom Hooks (useVoiceInput) for separated logic and view layers.
 
-📘 TypeScript Precision: Utilizes strict type safety and shared Interfaces to ensure a robust, error-free codebase.
+* 📘 TypeScript Precision: Utilizes strict type safety and shared Interfaces to ensure a robust, error-free codebase.
 
-⚡ Zero-Latency Performance: Optimized for mobile and voice-only interactions with immediate visual feedback.
+* ⚡ Zero-Latency Performance: Optimized for mobile and voice-only interactions with immediate visual feedback.
 
-🧠 Intelligent Logic: Simulates an NLP backend to parse natural language commands (e.g., "Add 5 organic apples") into structured data.
+* 🧠 Intelligent Logic: Simulates an NLP backend to parse natural language commands (e.g., "Add 5 organic apples") into structured data.
 
 ## 🛠️ Tech Stack
 
