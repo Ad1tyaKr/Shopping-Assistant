@@ -56,6 +56,16 @@ This project demonstrates a "Minimalist Interface" design and uses the **Web Spe
     ```bash
     npm run dev
     ```
+> [!IMPORTANT]  
+> **Evaluator Note: API Key & Mock Fallback**
+> 
+> To test the live AI integration, create a `.env` file in the root directory and add a valid Gemini API key:  
+> `VITE_GEMINI_API_KEY=your_api_key_here`
+> 
+> **No API Key? No Problem.** 
+> 
+> The app automatically switches to Mock Data Mode if the key is missing or the API fails so you can still test all core features, including Voice-to-Text, Auto-Categorization, and Smart Suggestions, without any setup.
+>
 
 4.  **Open the App**
     * Visit `http://localhost:5173` in your browser.
